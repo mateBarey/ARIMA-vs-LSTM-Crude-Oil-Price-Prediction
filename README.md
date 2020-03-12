@@ -4,10 +4,10 @@ Model Takes Crude Oil Prices from 2010 and to 2020 and uses a LSTM and ARIMA mod
 
 LSTM model is a recurrent Neural network that works by extracting the generalized features of a set, in this case a
 
-time series . The other model used was a ARIMA model which is a combination of Autogregressiion (Wchich expresses curren values
+time series . The other model used was a ARIMA model which is a combination of Autogregressiion (Wchich expresses 
 
-of a time series linearly in terms of its previous and values and residuals) and a MA model which expresses current value
+current valuesof a time series linearly in terms of its previous and values and residuals) and a MA model which expresses 
 
-of a time series lienarly in terms of its current and previsous residual values.
+current value of a time series lienarly in terms of its current and previsous residual values.
 
 The RMSE error was evaluated and the ARIMA model was able to predict the test set with greater accuracy.
